@@ -144,9 +144,15 @@ def turn
       self.turn
     end
     if self.won?
+<<<<<<< HEAD
       puts "Congratulations #{winner}!"
     elsif self.draw?
       puts "Cat's Game!"
+=======
+      puts "congratulations player"
+    elsif self.draw?
+      puts "You suck"
+>>>>>>> 9065792e379a717bc245dde8d81749c5eaa6e746
       end
 # congratulate the winner 
 # else if the game was a draw
